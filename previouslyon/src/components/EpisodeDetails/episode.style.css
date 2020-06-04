@@ -1,0 +1,33 @@
+.section-main{
+    height: 93vh;
+    width: 100vw;
+    background: linear-gradient(to left bottom, rgb(41, 40, 40), rgb(7, 8, 8));
+    position: absolute;
+}
+.section-main__container{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:40rem;          
+    padding: 7rem;
+}
+
+.section-detail__header{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: red;    
+    text-transform: uppercase;
+    filter: brightness(250%);
+}
+
+.section-detail__text{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(252, 249, 249);
+    text-align: justify;
+    
+}
+.badge-style {
+    font-size: 20px;    
+}

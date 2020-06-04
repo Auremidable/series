@@ -1,0 +1,84 @@
+.section-show {
+    height: 200vh;
+    background: linear-gradient(to left bottom, rgb(41, 40, 40), rgb(7, 8, 8));
+}
+@media screen and (max-width: 1200px){
+    .section-show{    
+        height: 370vh;        
+    }
+}
+@media screen and (max-width: 1200px){
+    .show-detail{    
+        height: 75vh !important;        
+    }
+}
+@media screen and (max-width: 768px){
+    .show-detail{    
+        height: 75vh !important;        
+    }
+}
+
+.archive-icon, .unarchive-icon{
+    font-size: 50px;
+    color:#fff;
+    float: right;
+    transition: all .5s;
+}
+.archive-icon:hover{
+    cursor: pointer;
+    color: rgb(43, 179, 61);
+    transform: scale(1.3);
+}
+.unarchive-icon:hover{
+    cursor: pointer;
+    color: rgb(238, 34, 68);
+    transform: scale(1.3);
+}
+
+.carousel .carousel-slider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    /* height: 700px; */
+    
+}
+.carousel__container{
+    height: 600px;
+    background: black;
+}
+.eye__icon--see{
+    font-size: 20px;
+    color: rgb(223, 75, 89);
+    transition: all .5s;
+}
+.eye__icon--unsee{
+    font-size: 20px;
+    color: rgb(77, 238, 56);
+    transition: all .5s;
+}
+.eye__icon--see:hover, .eye__icon--unsee:hover{
+    cursor: pointer;
+    transform: scale(1.4)
+}
+
+.badge .badge-danger{
+    font-size: 15px;
+    margin-left: 5px;
+    transition: all .5s;
+}
+
+.badge .badge-danger:hover{
+    cursor: pointer;
+    transform: scale(1.4)
+}
+
+.title-bar{
+    background: linear-gradient(to left bottom, rgb(41, 40, 40), rgb(7, 8, 8));
+    padding: 100px 0 0 0;
+    margin-bottom: 50px;    
+}
+.title-bar__header{    
+    align-items: center;
+
+}

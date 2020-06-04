@@ -1,0 +1,51 @@
+.section-myShows{
+    height: 200vh;
+    background: linear-gradient(to left bottom, rgb(41, 40, 40), rgb(7, 8, 8));
+}
+
+@media screen and (max-width: 1024px){
+    .section-myShows{    
+        height: 320vh;        
+    }
+}
+@media screen and (max-width: 992px){
+    .section-myShows{    
+        height: 310vh;        
+    }
+}
+@media screen and (max-width: 425px){
+    .myshow-header{    
+        height: 70vh !important;        
+    }
+}
+
+.show__container { 
+    transition: all .5s;
+}
+.show__container:hover {
+    cursor: pointer;
+    transform: scale(1.03)
+}
+
+.show__container--img:hover{
+    opacity: .7;
+}
+
+.title-bar{
+    background: linear-gradient(to left bottom, rgb(41, 40, 40), rgb(7, 8, 8));
+    padding: 100px 0 0 0;
+    margin-bottom: 50px;    
+}
+.title-bar__header{    
+    align-items: center;
+
+}
+
+.link {
+    color: grey;
+    transition: all .5s;
+}
+.link:hover {
+    color: grey;
+    transition: all .5s;    
+}
