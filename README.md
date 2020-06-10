@@ -1,4 +1,4 @@
-#PREVIOUSLY ON | School project
+#PREVIOUSLY ON | ReactJS project
 
 #Starting project:
 
